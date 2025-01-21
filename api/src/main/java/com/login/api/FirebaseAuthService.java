@@ -10,9 +10,8 @@ import java.util.HashMap;
 import java.util.Map;
 @Service
 public class FirebaseAuthService {
-    private static final String FIREBASE_AUTH_URL = "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyC55CyGUs6hKTjH6xa8JWpBP5tPsl9GbuQ";
-    private final String apiKey = "\n" +
-            "AIzaSyC55CyGUs6hKTjH6xa8JWpBP5tPsl9GbuQ"; // Replace with your Firebase Web API Key
+    private static final String FIREBASE_AUTH_URL = "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=()";
+    private final String apiKey = "()"; // Replace with your Firebase Web API Key
 
     public String loginWithEmailAndPassword(String email, String password) {
         RestTemplate restTemplate = new RestTemplate();
