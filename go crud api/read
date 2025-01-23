@@ -1,1 +1,4 @@
+#add vendor go mod vendor
+#First run the Docker comd
+#then go run api.go
 
