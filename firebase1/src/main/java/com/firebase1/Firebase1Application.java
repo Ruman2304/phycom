@@ -16,7 +16,7 @@ public class Firebase1Application {
 	public static void main(String[] args) throws IOException {
 		SpringApplication.run(Firebase1Application.class, args);
 		FileInputStream serviceAccount =
-				new FileInputStream("C:\\Users\\Admin\\Desktop\\ruman\\firebase1\\src\\main\\resources\\serviceAccountKey.json");
+				new FileInputStream("");
 
 		FirebaseOptions options = new FirebaseOptions.Builder()
 				.setCredentials(GoogleCredentials.fromStream(serviceAccount))
